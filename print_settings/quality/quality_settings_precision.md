@@ -41,6 +41,8 @@ __Good quality STLs and modern printers will not benefit from this feature and c
 >
 > For Klipper printers see the [https://www.klipper3d.org/Config_Reference.html#gcode_arcs](documentation) for setting the resolution of the arcs generated internally.
 >
+> In general, this feature should be used to solve problems and not as a default setting, unless the settings of the printer firmware are carefully checked to ensure a sufficiently high resolution which _exceeds_ the resolution of the original STL.
+> 
 > The internal generation of segments from arcs requires higher CPU usage from the printer microcontroller and therefore it might cause slow-downs (and reduced surface quality) on printers using 8-bit microcontrollers.
 
 ## X-Y Compensation
