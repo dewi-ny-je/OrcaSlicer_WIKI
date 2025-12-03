@@ -39,7 +39,7 @@ __Good quality STLs and modern printers will not benefit from this feature and c
 > [!IMPORTANT]
 > The printer will internally convert the arcs back into a series of segments, which are in many printers by default less accurate than those already defined in high quality, modern STLs.
 >
-> For Klipper printers see the [https://www.klipper3d.org/Config_Reference.html#gcode_arcs](documentation) for setting the resolution of the arcs generated internally.
+> For Klipper printers see the [documentation](https://www.klipper3d.org/Config_Reference.html#gcode_arcs) for setting the resolution of the arcs generated internally.
 >
 > In general, this feature should be used to solve problems and not as a default setting, unless the settings of the printer firmware are carefully checked to ensure a sufficiently high resolution which _exceeds_ the resolution of the original STL.
 > 
